@@ -1,9 +1,9 @@
-const ButtonNav = (props) => {
+const ButtonNav = ({type, text}) => {
     return (
-        <button type={props.type} onClick={() => {
-            console.log(props.text);}
+        <button type={type} onClick={() => {
+            console.log(text);}
         }>
-            {props.text}
+            {text}
         </button>
     )
 };
