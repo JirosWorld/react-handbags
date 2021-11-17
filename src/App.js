@@ -20,14 +20,18 @@ function App() {
                 <ButtonNav
                     type="button"
                     text="to the collection"
+                    disabledState={false}
                 />
                 <ButtonNav
                     type="button"
                     text="shop all bags"
+                    disabledState={false}
                 />
-                <button  type="button" disabled onClick={() => {
-                    console.log("pre-orders");
-                }}>pre-orders</button>
+                <ButtonNav
+                    type="button"
+                    text="pre-orders"
+                    disabledState={true}
+                />
             </nav>
             <main>
                 <Product
@@ -77,6 +81,3 @@ function App() {
 }
 
 export default App;
-
-
-

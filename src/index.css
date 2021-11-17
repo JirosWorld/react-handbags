@@ -28,3 +28,8 @@ h2 {
 img {
   width: 100%;
 }
+
+/* Jiro: stijl om body smaller te houden */
+#root {
+  max-width: 1040px;
+}

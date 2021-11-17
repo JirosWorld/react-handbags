@@ -1,6 +1,7 @@
-const ButtonNav = ({type, text}) => {
+const ButtonNav = ({type, text, disabledState}) => {
     return (
-        <button type={type} onClick={() => {
+        //https://sebhastian.com/react-disable-button/
+        <button type={type} disabled={disabledState} onClick={() => {
             console.log(text);}
         }>
             {text}
