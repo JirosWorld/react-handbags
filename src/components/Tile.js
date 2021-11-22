@@ -2,6 +2,8 @@ import React from "react";
 
 function Tile({sectionTitle, sectionText, tileImage, children}) {
     //als er wel of geen plaatje is:
+    //1 mogelijke notatie is:
+    //{tileImage && } <img src={tileImage} alt="tile alt"/>
             if (tileImage) {
                 console.log("Er is wél 'n afbeelding.");
                 return (
